@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/appname"
+        android:text="@string/appname"/>
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/thongtin" />
+
+    <EditText
+        android:id="@+id/txtMa"
+        style="@style/txt"
+        android:hint="@string/ma" />
+
+    <EditText
+        android:id="@+id/txtHoTen"
+        style="@style/txt"
+        android:hint="@string/hoTen" />
+
+    <EditText
+        android:id0="@+id/txtDiaChi"
+        style="@style/txt"
+        android:hint="@string/diachi" />
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/chucnang" />
+
+
+    <LinearLayout style="@style/chucnang">
+
+        <Button
+            android:id="@+id/btnThem"
+            style="@style/btn"
+            android:text="@string/them" />
+
+        <Button
+            android:background="@drawable/thoat"
+            style="@style/btn" />
+        <Button
+            android:background="@drawable/ngonngu"
+            style="@style/btn" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/ds" />
+
+    <ListView
+        style="@style/lv"></ListView>
+</LinearLayout>

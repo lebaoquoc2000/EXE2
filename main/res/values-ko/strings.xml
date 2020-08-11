@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">학 생 정 보</string>
+    <string name="appname">정 보</string>
+    <string name="chucnang">보</string>
+    <string name="diachi">생 정</string>
+    <string name="ds">학 보</string>
+    <string name="hoTen">학 생 보</string>
+    <string name="ma">학생</string>
+    <string name="them">학</string>
+    <string name="thoat">학</string>
+    <string name="thongtin">학생 정보</string>
+</resources>
